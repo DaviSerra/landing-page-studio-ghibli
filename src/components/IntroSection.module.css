@@ -1,0 +1,24 @@
+.backgroundImage {
+  width: 100%;
+  height: 400px;
+  background-image: url("/src/assets/background-section.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 50px;
+}
+
+.introWrapper {
+  position: relative;
+  top: 30vh;
+  left: -180px;
+  transform: translateY(-50%) rotate(40deg);
+  width: 400px;
+  height: 400px;
+  background-image: url("/src/assets/totoro-introduce.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  pointer-events: none;
+  z-index: 10;
+}
