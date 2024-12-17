@@ -14,7 +14,7 @@
   left: -180px;
   transform: translateY(-50%) rotate(40deg);
   width: 400px;
-  height: 400px;
+  height: 400px; 
   background-image: url("/src/assets/totoro-introduce.png");
   background-size: contain;
   background-position: center;
